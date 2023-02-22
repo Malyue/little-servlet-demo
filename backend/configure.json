@@ -1,0 +1,20 @@
+{
+  "dbms": {
+    "postgresql": {
+      "user": "postgres",
+      "password": "hcybeyond",
+      "addr": "114.132.232.3",
+      "port": 5432,
+      "db": "postgres"
+    },
+    "redis": {
+      "user": "111"
+    }
+  },
+  "whiteList": ["/api/login","/api/register","/api/test","/api/download"],
+  "docRoot": "/var/deploy/cst/f",
+  "port": ":9090",
+  "log": {
+
+  }
+}
